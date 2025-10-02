@@ -4,31 +4,46 @@ const productos = [
     nombre: "Pc Gamer ",
     caracteristicas: "Ryzen 5 7600x Rtx 4060 Ssd 1tb 32gb de ram",
     precio: 1485000,
-    imagen: "/img/pc1.jpg",
+    imagen: "./img/pc1.jpg",
     cantidad: 10,
   },
   {
     nombre: "Mini Pc Bmax B6 Plus",
     caracteristicas: "Intel I3 1000ng4 12gb de ram Ssd 512gb",
     precio: 367000,
-    imagen: "/img/pc2.jpg",
+    imagen: "./img/pc2.jpg",
     cantidad: 11,
   },
   {
     nombre: "Notebook Lenovo Ideapad Slim",
     caracteristicas: "Ryze5 8gb de ram Ssd 512gb",
     precio: 1499999,
-    imagen: "/img/pc3.jpg",
+    imagen: "./img/pc3.jpg",
     cantidad: 6,
   },
   {
     nombre: "ALL In One",
     caracteristicas: "TouchScreen Intel I5 8gb de ram Ssd 480gb",
     precio: 2141602,
-    imagen: "/img/pc4.jpg",
+    imagen: "./img/pc4.jpg",
     cantidad: 20,
   }
 ];
+
+
+function traerInfo(){
+fetch("./data.json")
+  .then((resp) => {
+    console.log(resp)
+    return resp.json()
+  })
+  .then((data) => {
+    console.log(data)
+  })
+}
+
+traerInfo()
+
 
 
 function imprimirProductos(productos) {
@@ -132,13 +147,14 @@ function procesarCompra() {
   destination: "https://github.com/apvarun/toastify-js",
   newWindow: true,
   close: true,
-  gravity: "top", // `top` or `bottom`
-  position: "right", // `left`, `center` or `right`
-  stopOnFocus: true, // Prevents dismissing of toast on hover
+  gravity: "top", 
+  position: "right", 
+  stopOnFocus: true,
   style: {
     background: "linear-gradient(to right, #00b09b, #96c93d)",
   },
-  onClick: function(){} // Callback after click
+  onClick: function(){}
+
 }).showToast();
 }
 
@@ -156,3 +172,10 @@ window.onload = () => {
   mostrarCarrito();
 };
 
+
+
+fetch
+
+promesas
+
+librerias

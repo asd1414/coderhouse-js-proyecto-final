@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Pc Gamer Pro",
+    "descripcion": "PC de alta gama con procesador Intel Core i7, GPU NVIDIA RTX 3080, 32 GB de RAM, SSD de 1 TB",
+    "precio": 2100000,
+    "cantidad": 5
+  },
+  {
+    "nombre": "Laptop Office Mate",
+    "descripcion": "Laptop ligera con procesador Intel Core i5, 8 GB de RAM, SSD de 256 GB, ideal para trabajos de oficina y multimedia",
+    "precio": 750000,
+    "cantidad": 12
+  },
+  {
+    "nombre": "Estación de Trabajo Creativa",
+    "descripcion": "Potente estación de trabajo con procesador AMD Ryzen 9, GPU NVIDIA Quadro, 64 GB de RAM, 2 TB SSD",
+    "precio": 3200000,
+    "cantidad": 3
+  },
+  {
+    "nombre": "Netbook Estudiante",
+    "descripcion": "Netbook compacta con pantalla de 11 pulgadas, procesador Intel Celeron, 4 GB de RAM, 128 GB de almacenamiento",
+    "precio": 300000,
+    "cantidad": 20
+  },
+  {
+    "nombre": "Servidor Empresarial",
+    "descripcion": "Servidor robusto con procesador Intel Xeon, 128 GB de RAM ECC, almacenamiento RAID de 4 TB",
+    "precio": 4500000,
+    "cantidad": 2
+  }
+]
