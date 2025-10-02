@@ -1,32 +1,58 @@
 [
   {
-    "nombre": "Pc Gamer Pro",
-    "descripcion": "PC de alta gama con procesador Intel Core i7, GPU NVIDIA RTX 3080, 32 GB de RAM, SSD de 1 TB",
-    "precio": 2100000,
-    "cantidad": 5
-  },
-  {
-    "nombre": "Laptop Office Mate",
-    "descripcion": "Laptop ligera con procesador Intel Core i5, 8 GB de RAM, SSD de 256 GB, ideal para trabajos de oficina y multimedia",
-    "precio": 750000,
-    "cantidad": 12
+    "nombre": "ALL In One",
+    "descripcion": "TouchScreen Intel I5 8gb de ram Ssd 480gb",
+    "precio": 2141602,
+    "imagen": "./img/pc4.jpg",
+    "cantidad": 20
   },
   {
     "nombre": "Estación de Trabajo Creativa",
     "descripcion": "Potente estación de trabajo con procesador AMD Ryzen 9, GPU NVIDIA Quadro, 64 GB de RAM, 2 TB SSD",
     "precio": 3200000,
+    "imagen": "./img/estacionDeTrabajoCreativa.jpg",
     "cantidad": 3
+  },
+  {
+    "nombre": "Laptop Office Mate",
+    "descripcion": "Laptop ligera con procesador Intel Core i5, 8 GB de RAM, SSD de 256 GB, ideal para trabajos de oficina y multimedia",
+    "precio": 750000,
+    "imagen": "./img/laptopOfficeMate.jpg",
+    "cantidad": 12
+  },
+  {
+    "nombre": "Mini Pc Bmax B6 Plus",
+    "descripcion": "Intel I3 1000ng4 12gb de ram Ssd 512gb",
+    "precio": 367000,
+    "imagen": "./img/pc2.jpg",
+    "cantidad": 11
   },
   {
     "nombre": "Netbook Estudiante",
     "descripcion": "Netbook compacta con pantalla de 11 pulgadas, procesador Intel Celeron, 4 GB de RAM, 128 GB de almacenamiento",
     "precio": 300000,
+    "imagen": "./img/netbookEstudiante.jpg",
     "cantidad": 20
+  },
+  {
+    "nombre": "Pc Gamer",
+    "descripcion": "Ryzen 5 7600x Rtx 4060 Ssd 1tb 32gb de ram",
+    "precio": 1485000,
+    "imagen": "./img/pc1.jpg",
+    "cantidad": 10
+  },
+  {
+    "nombre": "Pc Gamer Pro",
+    "descripcion": "PC de alta gama con procesador Intel Core i7, GPU NVIDIA RTX 3080, 32 GB de RAM, SSD de 1 TB",
+    "precio": 2100000,
+    "imagen": "./img/pcGamerPro.jpg",
+    "cantidad": 5
   },
   {
     "nombre": "Servidor Empresarial",
     "descripcion": "Servidor robusto con procesador Intel Xeon, 128 GB de RAM ECC, almacenamiento RAID de 4 TB",
     "precio": 4500000,
+    "imagen": "./img/servidorEmpresarial.jpg",
     "cantidad": 2
   }
 ]

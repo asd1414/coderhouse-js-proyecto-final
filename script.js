@@ -1,46 +1,19 @@
-
-const productos = [
-  {
-    nombre: "Pc Gamer ",
-    caracteristicas: "Ryzen 5 7600x Rtx 4060 Ssd 1tb 32gb de ram",
-    precio: 1485000,
-    imagen: "./img/pc1.jpg",
-    cantidad: 10,
-  },
-  {
-    nombre: "Mini Pc Bmax B6 Plus",
-    caracteristicas: "Intel I3 1000ng4 12gb de ram Ssd 512gb",
-    precio: 367000,
-    imagen: "./img/pc2.jpg",
-    cantidad: 11,
-  },
-  {
-    nombre: "Notebook Lenovo Ideapad Slim",
-    caracteristicas: "Ryze5 8gb de ram Ssd 512gb",
-    precio: 1499999,
-    imagen: "./img/pc3.jpg",
-    cantidad: 6,
-  },
-  {
-    nombre: "ALL In One",
-    caracteristicas: "TouchScreen Intel I5 8gb de ram Ssd 480gb",
-    precio: 2141602,
-    imagen: "./img/pc4.jpg",
-    cantidad: 20,
-  }
-];
+let productos = [];
 
 
-function traerInfo(){
-fetch("./data.json")
-  .then((resp) => {
-    console.log(resp)
-    return resp.json()
-  })
-  .then((data) => {
-    console.log(data)
-  })
+
+function traerInfo() {
+  fetch("./data.json")
+    .then((resp) => resp.json())
+    .then((data) => {
+      productos = data;
+      imprimirProductos(productos);
+    })
+    .catch((error) => {
+      console.error('Error al cargar el json', error);
+    });
 }
+
 
 traerInfo()
 
@@ -168,7 +141,7 @@ function eliminarDelCarrito(index) {
 
 
 window.onload = () => {
-  imprimirProductos(productos);
+  traerInfo();
   mostrarCarrito();
 };
 
