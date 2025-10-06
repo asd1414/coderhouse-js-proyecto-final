@@ -1,6 +1,6 @@
 let productos = [];
 
-
+// Fetch y Promesas
 
 function traerInfo() {
   fetch("./data.json")
@@ -145,10 +145,3 @@ window.onload = () => {
   mostrarCarrito();
 };
 
-
-
-// fetch
-
-// promesas
-
-// librerias
