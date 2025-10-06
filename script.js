@@ -147,8 +147,8 @@ window.onload = () => {
 
 
 
-fetch
+// fetch
 
-promesas
+// promesas
 
-librerias
+// librerias
